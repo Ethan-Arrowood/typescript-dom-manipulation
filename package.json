@@ -1,0 +1,18 @@
+{
+  "name": "typescript-dom-manipulation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel serve src/index.html",
+    "ts": "tsc -p ./tsconfig.json",
+    "ts:w": "npm run ts -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2",
+    "typescript": "^3.7.5"
+  }
+}
